@@ -7,7 +7,7 @@
 #
 ### 📚 SOBRE
 
-- Diretório contendo desenvolvimento dos exercícios na disciplina de Algoritmos e Lógica de Programação(ALP) na Fatec Zona Leste em 2025.
+- Diretório contendo desenvolvimento dos exercícios na disciplina de Algoritmos e Lógica de Programação(ALP) na Fatec Zona Leste em 2025.1.
 - Possui pequenas propostas de solução, com o intuito de atender aos requisitos solicitados.
 
 #

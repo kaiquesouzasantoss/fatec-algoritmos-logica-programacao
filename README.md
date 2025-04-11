@@ -1,4 +1,4 @@
-<h1 align=center>FATEC ZL - ALGORITMOS E LÓGICA DE PROGRAMAÇÃO</h1>
+<h1 align=center>ALGORITMOS E LÓGICA DE PROGRAMAÇÃO</h1>
 
 <p align="center">
   <img src="fatec.png" width="500">

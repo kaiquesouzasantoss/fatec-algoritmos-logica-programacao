@@ -1,9 +1,7 @@
 ## Enunciado
 
-> .
+> Calcula a somatoria do fatorial dos numeros presentes no intervalo N até 1, onde N devera ser decrementado.
 
-## Teste de Mesa
+### Formato
 
-| | |
-| --- | --- |
-| 1 | 2 |
+> Somatoria = (n)! + (n-1)! + ... + (1)!

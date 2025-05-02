@@ -1,9 +1,7 @@
 ## Enunciado
 
-> .
+> Calcule a somatoria dos numeros presente no intervalode de 1 até 100. 
 
-## Teste de Mesa
+### Formato
 
-| | |
-| --- | --- |
-| 1 | 2 |
+> Somatoria = 1 + 2 + 3 + 4 ... + 100

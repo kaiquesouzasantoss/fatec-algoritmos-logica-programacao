@@ -1,9 +1,7 @@
 ## Enunciado
 
-> .
+> Calcule a somatoria dos numeros presentes no intervalo de N até 1.
 
-## Teste de Mesa
+### Formato
 
-| | |
-| --- | --- |
-| 1 | 2 |
+> Somatoria = (n) + (n-1) + ... + (1)

@@ -4,9 +4,3 @@
 > a. A média do grupo; 
 > b. A quantidade de notas acima do grupo; 
 > c. As posições dos valores abaixo da média do grupo. 
-
-## Teste de Mesa
-
-| | |
-| --- | --- |
-| 1 | 2 |

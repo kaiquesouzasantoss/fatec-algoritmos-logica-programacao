@@ -1,5 +1,9 @@
 ## Enunciado
 
-> Criar e coletar um vetor [100] inteiro e exibir:
-> a. O maior e o menor valor; 
-> b. A média dos valores. 
+> Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.
+
+## Teste de Mesa
+
+| | |
+| --- | --- |
+| 1 | 2 |

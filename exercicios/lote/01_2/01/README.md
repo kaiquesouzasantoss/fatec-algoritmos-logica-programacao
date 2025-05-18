@@ -1,5 +1,9 @@
 ## Enunciado
 
-> Criar e coletar um vetor [50] inteiro. Calcular e exibir:
-> a. A média dos valores entre 10 e 200; 
-> b. A soma dos números ímpares. 
+> Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.
+
+## Teste de Mesa
+
+| | |
+| --- | --- |
+| 1 | 2 |

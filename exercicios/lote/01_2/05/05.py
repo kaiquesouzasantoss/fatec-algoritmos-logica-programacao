@@ -1,11 +1,16 @@
-lista = list()
-interacoes, soma = 20, 0
+import math
 
-for i in range(interacoes):
-    lista.append(int(input()))
+def calcula_delta(a, b, c):
+    return (b * b) - 4 * a * c
 
-for i in range(interacoes/2):
-    soma += lista[i] + lista[interacoes]
-    interacoes -= 1
+def calcula_x(a, b, delta, sinal):
+    return (-b + sinal * math.sqrt(delta)) / (2 * a)
 
-print(f'SOMA = {soma}')
+a, b, c = float(input()), float(input()), float(input())
+
+delta = calcula_delta(a, b, c)
+
+if delta < 0:
+    print("A equação não possui raízes reais.")
+else:
+    print(f'X1 = {calcula_x(a, b, delta, 1)} | X2 = {calcula_x(a, b, delta, -1)}')

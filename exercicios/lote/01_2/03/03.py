@@ -1,11 +1,6 @@
-vetor_01 = [int(input()) for x in range(3)]
-vetor_02 = [int(input()) for x in range(3)]
-vetor_03 = []
+def calcula_area(base, altura):
+    return (base * altura) / 2
 
-for item in vetor_01:
-    vetor_03.append(item)
+base, altura = float(input()), float(input())
 
-for item in vetor_02:
-    vetor_03.append(item)
-
-print(f'VT3 = {vetor_03}')
+print(f'{calcula_area(base, altura)}')

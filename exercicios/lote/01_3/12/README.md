@@ -11,3 +11,14 @@
 ## Restrição
 
 > Não pode utilizar estrutura de decisão e Escolha Caso na contagem das peças
+
+## Entrada de Teste
+
+1 2 3 4 5 6 7 1
+2 3 4 5 6 7 1 2
+3 4 5 6 7 1 2 3
+4 5 6 7 1 2 3 4
+5 6 7 1 2 3 4 5
+6 7 1 2 3 4 5 6
+7 1 2 3 4 5 6 7
+1 2 3 4 5 6 7 1

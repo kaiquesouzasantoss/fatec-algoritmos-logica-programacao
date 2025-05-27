@@ -1,8 +1,5 @@
-linhas = 2
-colunas = 5
-avaliacoes = []
-media_prova = []
-media_alunos = []
+linhas, colunas = 200, 5
+avaliacoes, media_provas, media_alunos = [], [], []
 
 menu = [
     [1, "CARREGA AVALIAÇÕES"],
@@ -101,18 +98,18 @@ def gerencia_operacao():
                 avaliacoes = carrega_avaliacoes(linhas, colunas)
             case 2:
                 media_alunos = sumariza_media_aluno(avaliacoes, linhas, colunas)
-                media_prova = sumariza_media_prova(avaliacoes, linhas, colunas)
+                media_provas = sumariza_media_prova(avaliacoes, linhas, colunas)
 
                 exibe_titulo(menu[1][1])
 
                 print(f"MEDIA GERAL DOS ALUNOS: {calcula_media_aluno(media_alunos, linhas)}")
-                print(f"MEDIA GERAL DAS PROVAS: {calcula_media_prova(media_prova, linhas)}")
+                print(f"MEDIA GERAL DAS PROVAS: {calcula_media_prova(media_provas, linhas)}")
 
                 print(f"MEDIA DE CADA ALUNO: ")
                 exibe_media_aluno(media_alunos, linhas)
 
                 print(f"MEDIA DE CADA PROVA: ")
-                exibe_media_prova(media_prova, linhas)
+                exibe_media_prova(media_provas, linhas)
             case 3:
                 encerra()
                 exit(0)
